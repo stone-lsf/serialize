@@ -28,7 +28,7 @@ public class ProtoStuffSerializer implements Serializer {
 
     @Override
     public byte[] serialize(Object obj) {
-        return new byte[0];
+        return toArrayByte(obj);
     }
 
     @SuppressWarnings("unchecked")
